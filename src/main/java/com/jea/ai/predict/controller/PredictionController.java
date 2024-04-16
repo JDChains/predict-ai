@@ -3,7 +3,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.jea.ai.predict.PredictionDTO;
+import com.jea.ai.predict.dto.PredictionDTO;
 import com.jea.ai.predict.model.Prediction;
 import com.jea.ai.predict.service.PredictionService;
 

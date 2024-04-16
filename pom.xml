@@ -87,7 +87,13 @@
 			<version>2.7.10</version>
 		</dependency>
 
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>2.6.2</version> <!-- Use the appropriate version matching your Spring Boot version -->
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 
 
 		<!-- Spring Security -->
@@ -98,7 +104,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			
+
 			<scope>provided</scope>
 		</dependency>
 

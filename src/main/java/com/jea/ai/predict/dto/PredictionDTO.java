@@ -1,4 +1,4 @@
-package com.jea.ai.predict;
+package com.jea.ai.predict.dto;
 
 import lombok.*;
 
